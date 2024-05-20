@@ -3,7 +3,7 @@
 }
 
 .imageAndText {
-
+    display: flex;
 }
 
 .imageAndText img {
