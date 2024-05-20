@@ -15,6 +15,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.2;
     font-weight: 600;
+    letter-spacing: 0;
 }
 
 a {
@@ -54,7 +55,6 @@ ul {
 .hwTitle {
     color: rgb(0, 0, 0);
     font-size: 22px;
-    letter-spacing: 0;
     text-align: left;
     margin-top: 130px;
     margin-bottom: 10px;
