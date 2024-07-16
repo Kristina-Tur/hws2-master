@@ -1,14 +1,55 @@
-.buttonsContainer {
+.buttonsContainer{
+    display: flex;
+    gap: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.button{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 25px;
+    width: auto;
+}
+
+.buttonDisabled{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 25px;
+    opacity: 0.4;
+    width: auto;
 }
 
 .clock {
 }
 
 .watch {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    margin-bottom: 10px;
 }
 
 .watch strong {
 }
 
 .more {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #00000080;
+    margin-bottom: 27px;
+}
+.containerPage {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
 }
