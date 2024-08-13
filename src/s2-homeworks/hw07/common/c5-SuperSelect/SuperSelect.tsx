@@ -1,9 +1,10 @@
 import React, {
     SelectHTMLAttributes,
     DetailedHTMLProps,
-    ChangeEvent,
+    ChangeEvent, useRef,
 } from 'react'
 import s from './SuperSelect.module.css'
+import {ThemeType} from "../../../hw12/HW12";
 
 type DefaultSelectPropsType = DetailedHTMLProps<
     SelectHTMLAttributes<HTMLSelectElement>,
@@ -11,8 +12,8 @@ type DefaultSelectPropsType = DetailedHTMLProps<
 >
 
 type SuperSelectPropsType = DefaultSelectPropsType & {
-    options?: any[]
-    onChangeOption?: (option: any) => void
+    options?: ThemeType[]
+    onChangeOption?: (option: number) => void
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = ({
@@ -22,26 +23,29 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
     onChangeOption,
     ...restProps
 }) => {
-    const mappedOptions: any[] = options
+    const mappedOptions = options
         ? options.map((o) => (
               <option
                   id={'hw7-option-' + o.id}
                   className={s.option}
                   key={o.id}
                   value={o.id}
+                  data-theme={o.id}
               >
                   {o.value}
               </option>
           ))
         : [] // map options with key
 
+
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
-        const value = parseInt(e.currentTarget.value)
-        onChangeOption?.(value)
+
+        const value = e.currentTarget.value
+        onChangeOption?.(+value)
         console.log(e.currentTarget.value)
     }
 
-    const finalSelectClassName = s.select + (className ? ' ' + className : '')
+    const finalSelectClassName = s.select + (className? ' ' + className : '')
 
     return (
         <select

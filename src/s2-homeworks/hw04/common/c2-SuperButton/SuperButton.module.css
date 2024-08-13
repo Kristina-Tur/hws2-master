@@ -1,6 +1,10 @@
 .button {
     padding: 5px 24px;
-    width: 130px;
+    border-radius: 3px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .disabled {
@@ -41,4 +45,5 @@
 }
 
 .button:disabled {
+    opacity: 0.3;
 }

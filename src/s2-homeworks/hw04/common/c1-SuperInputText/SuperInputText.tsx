@@ -35,6 +35,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         ...restProps // все остальные пропсы попадут в объект restProps
     }
 ) => {
+
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
 
             onChange?.(e)
