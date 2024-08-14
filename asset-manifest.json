@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hws2-master/static/css/main.86c15ba5.css",
-    "main.js": "/hws2-master/static/js/main.01b884c6.js",
+    "main.css": "/hws2-master/static/css/main.d494272f.css",
+    "main.js": "/hws2-master/static/js/main.814cb264.js",
     "static/js/787.66cb4309.chunk.js": "/hws2-master/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hws2-master/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/hws2-master/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -14,12 +14,14 @@
     "index.html": "/hws2-master/index.html",
     "static/media/checked.svg": "/hws2-master/static/media/checked.b75ca55e8759862b4083.svg",
     "static/media/burger.svg": "/hws2-master/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.86c15ba5.css.map": "/hws2-master/static/css/main.86c15ba5.css.map",
-    "main.01b884c6.js.map": "/hws2-master/static/js/main.01b884c6.js.map",
+    "static/media/downArrow.svg": "/hws2-master/static/media/downArrow.feb27d85ec62bd40511655a14981fa05.svg",
+    "static/media/upArrow.svg": "/hws2-master/static/media/upArrow.464edfecf00ce1461dfe6d8288f1b88f.svg",
+    "main.d494272f.css.map": "/hws2-master/static/css/main.d494272f.css.map",
+    "main.814cb264.js.map": "/hws2-master/static/js/main.814cb264.js.map",
     "787.66cb4309.chunk.js.map": "/hws2-master/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c15ba5.css",
-    "static/js/main.01b884c6.js"
+    "static/css/main.d494272f.css",
+    "static/js/main.814cb264.js"
   ]
 }
